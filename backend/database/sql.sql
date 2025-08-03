@@ -4,7 +4,7 @@ USE meubanco;
 
 CREATE TABLE mensagens (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(55),
-    email VARCHAR(50),
-    comentario VARCHAR(144)
+    nome VARCHAR(255),
+    email VARCHAR(255),
+    comentario VARCHAR(1000)
 );
