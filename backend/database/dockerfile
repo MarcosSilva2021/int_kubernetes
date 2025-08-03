@@ -1,0 +1,6 @@
+FROM mysql:5.7
+
+ENV MYSQL_DATABASE=meubanco \
+    MYSQL_USER=usuario \
+    MYSQL_PASSWORD=senha123 \
+    MYSQL_ROOT_PASSWORD=root123
