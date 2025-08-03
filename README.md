@@ -9,13 +9,14 @@ Toda a infraestrutura é provisionada usando manifests YAML e imagens Docker cus
 
 int_kubernetes/
 │
-├── backend/ # Código-fonte PHP + Dockerfile
-├── backend/database/ # Script SQL + Dockerfile do MySQL
-├── frontend/ # interface visual
+├── backend/              # Código-fonte PHP + Dockerfile
+├── backend/database/     # Script SQL + Dockerfile do MySQL
+├── frontend/             # Interface visual
 │
-├── deployment.yml # Recursos: Deployments e PVC
-├── services.yml # Recursos: Services (LoadBalancer, Headless)
-├── script.bat # Automação: build, push e apply
+├── deployment.yml        # Recursos: Deployments e PVC
+├── services.yml          # Recursos: Services (LoadBalancer, Headless)
+├── script.bat            # Automação: build, push e apply
+
 
 ##  Funcionalidades do Kubernetes
 
